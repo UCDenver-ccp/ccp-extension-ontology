@@ -1173,6 +1173,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
         <obo:IAO_0000115>Other symbols used to refer to this gene</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - synonyms field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1184,6 +1185,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
         <obo:IAO_0000115>Other names used to refer to this gene</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - name synonyms field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1195,6 +1197,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
         <obo:IAO_0000115>Indicates the location of the gene or region on the chromosome</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - chromosome field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1249,7 +1252,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
         <obo:IAO_0000115>Accession numbers for each entry selected by the HGNC</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">HGNC gene record - accession numbers field value</rdfs:label>
+        <rdfs:label xml:lang="en">HGNC gene record - nucleotide accession numbers field value</rdfs:label>
     </owl:Class>
     
 
@@ -1301,6 +1304,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000152">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000151"/>
         <rdfs:label xml:lang="en">HGNC Specialist Database identifier link pair record</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1310,6 +1314,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000153">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000151"/>
         <rdfs:label xml:lang="en">HGNC gene family tag description pair record</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1319,6 +1324,7 @@ withdrawn - contains the &quot;withdrawn&quot; locus type only</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000154">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000151"/>
         <rdfs:label xml:lang="en">HGNC locus specific database name link pair record</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1460,6 +1466,7 @@ Most of these IDs have undergone manual curation, however a few are mapped from 
 Entrez Gene at the NCBI provide curated sequence and descriptive information about genetic loci including official nomenclature, synonyms, sequence accessions, phenotypes, EC numbers, MIM numbers, UniGene clusters, homology, map locations, and related web sites.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied Entrez gene identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1473,6 +1480,7 @@ Entrez Gene at the NCBI provide curated sequence and descriptive information abo
 Identifier provided by Online Mendelian Inheritance in Man (OMIM). This database is described as a catalog of human genes and genetic disorders containing textual information and links to additional related resources.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied OMIM identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1486,6 +1494,7 @@ Identifier provided by Online Mendelian Inheritance in Man (OMIM). This database
 The Reference Sequence (RefSeq) identifier for that entry, provided by the NCBI. As we do not aim to curate all variants of a gene only one mapped RefSeq is displayed per gene report. RefSeq aims to provide a comprehensive, integrated, non-redundant set of sequences, including genomic DNA, transcript (RNA), and protein products. RefSeq identifiers are designed to provide a stable reference for gene identification and characterization, mutation analysis, expression studies, polymorphism discovery, and comparative analyses.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied RefSeq identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1499,6 +1508,7 @@ The Reference Sequence (RefSeq) identifier for that entry, provided by the NCBI.
 The UniProt identifier, provided by the EBI. The UniProt Protein Knowledgebase is described as a curated protein sequence database that provides a high level of annotation, a minimal level of redundancy and high level of integration with other databases.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied UniProt identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1512,6 +1522,7 @@ The UniProt identifier, provided by the EBI. The UniProt Protein Knowledgebase i
 The Ensembl ID is derived from the current build of the Ensembl database and provided by the Ensembl team.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied Ensembl identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1525,6 +1536,7 @@ The Ensembl ID is derived from the current build of the Ensembl database and pro
 The Vega gene ID is derived from the current build of the Vega database and provided by the Vega team.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied Vega identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1538,6 +1550,7 @@ The Vega gene ID is derived from the current build of the Vega database and prov
 The UCSC ID is derived from the current build of the UCSC database</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied UCSC genome browser identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1551,6 +1564,7 @@ The UCSC ID is derived from the current build of the UCSC database</obo:IAO_0000
 MGI identifier.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied MGI identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1564,6 +1578,7 @@ MGI identifier.</obo:IAO_0000115>
 RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.genenames.org/help/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">HGNC gene record - supplied RGD identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6164,6 +6179,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000683">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000358"/>
         <rdfs:label xml:lang="en">HGNC specialist database link pair record field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6173,6 +6189,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000684">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000358"/>
         <rdfs:label xml:lang="en">HGNC gene family tag description pair record field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6182,6 +6199,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000685">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000358"/>
         <rdfs:label xml:lang="en">HGNC locus specific database name link pair record field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6191,6 +6209,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000686">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000683"/>
         <rdfs:label xml:lang="en">HGNC specialist database link pair record - data source identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6200,6 +6219,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000687">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000683"/>
         <rdfs:label xml:lang="en">HGNC specialist database link pair record - specialist database URL field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6209,6 +6229,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000688">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000684"/>
         <rdfs:label xml:lang="en">HGNC gene family tag description pair record - gene family tag field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6218,6 +6239,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000689">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000684"/>
         <rdfs:label xml:lang="en">HGNC gene family tag description pair record - gene family description field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6227,6 +6249,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000690">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000685"/>
         <rdfs:label xml:lang="en">HGNC locus specific database name link pair record - database name field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6236,6 +6259,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000691">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000685"/>
         <rdfs:label xml:lang="en">HGNC locus specific database name link pair record - link field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12374,8 +12398,8 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001364">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
-        <obo:IAO_0000599>INCRNADB_</obo:IAO_0000599>
-        <rdfs:label xml:lang="en">IncRnaDb identifier</rdfs:label>
+        <obo:IAO_0000599>LNCRNADB_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">LncRnaDb identifier</rdfs:label>
     </owl:Class>
     
 
@@ -13815,6 +13839,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001509">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
         <rdfs:label xml:lang="en">HGNC gene record - supplied RNACentral identifier field value</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15901,6 +15926,312 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <ext:IAO_EXT_0001700>PA\d+</ext:IAO_EXT_0001700>
         <obo:IAO_0000599>PHARMGKB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PharmGkb disease identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001726 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001726">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - cytogenic location field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001727 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001727">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - sortable cytogenic location field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001728 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001728">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - alias symbol field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001729 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001729">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - alias name field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001730 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001730">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - gene family field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001731 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001731">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - gene family identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001732 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001732">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - UCSC genome browser identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001733 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001733">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - UniProt identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001734 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001734">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - RGD identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001735 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001735">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Locus Specific Mutation Database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001736 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001736">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - COSMIC identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001737 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001737">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - OMIM identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001738 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001738">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - MirBase identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001739 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001739">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Homeobox database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001740 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001740">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - snoRNABase identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001741 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001741">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - BioParadigms SLC table identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001742 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001742">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Orphanet identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001743 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001743">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Pseudogene.org identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001744 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001744">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - HORDE identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001745 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001745">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - MEROPS identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001746 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001746">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - IMGT identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001747 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001747">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - IUPHAR identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001748 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001748">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Human KZNF Gene Catalog identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001749 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001749">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - MAMIT tRNA Database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001750 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001750">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Human Cell Differentiation Molecular Database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001751 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001751">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - incRNA Database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001752 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001752">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - Intermediate Filament Database identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001753 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001753">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000132"/>
+        <rdfs:label xml:lang="en">HGNC gene record - RNACentral identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001754 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001754">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">IUPHAR identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001755 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001755">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">Locus Specific Mutation Database identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001756 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001756">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">BioParadigms SLC Table identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001757 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001757">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">Human Cell Differentiation Molecule Database identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001758 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001758">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">Human KZNF Gene Catalog identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001759 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001759">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">Intermediate Filament Database identifier</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
