@@ -1852,9 +1852,7 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000081"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
         <ext:IAO_EXT_0001700>^\d+$</ext:IAO_EXT_0001700>
         <obo:IAO_0000599>NCBITaxon_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCBI Taxonomy concept identifier</rdfs:label>
@@ -16351,6 +16349,8 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001772">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282"/>
+        <ext:IAO_EXT_0001700>^\d+$</ext:IAO_EXT_0001700>
+        <obo:IAO_0000599>BIOGRID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioGRID interactor identifier</rdfs:label>
     </owl:Class>
     
@@ -16360,6 +16360,8 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001773">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282"/>
+        <ext:IAO_EXT_0001700>^\d+$</ext:IAO_EXT_0001700>
+        <obo:IAO_0000599>BIOGRID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioGRID interaction identifier</rdfs:label>
     </owl:Class>
     
@@ -16369,6 +16371,8 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001774">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282"/>
+        <ext:IAO_EXT_0001700>^\d+$</ext:IAO_EXT_0001700>
+        <obo:IAO_0000599>BIOGRID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioGRID publication identifier</rdfs:label>
     </owl:Class>
     
@@ -16378,6 +16382,8 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001775">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282"/>
+        <ext:IAO_EXT_0001700>^\d+$</ext:IAO_EXT_0001700>
+        <obo:IAO_0000599>BIOGRID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioGRID chemical identifier</rdfs:label>
     </owl:Class>
     
@@ -16874,6 +16880,36 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001830">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000711"/>
         <rdfs:label xml:lang="en">IRefWeb PSI-MITAB 2_6 record - interactor field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001831 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001831">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001780"/>
+        <rdfs:label xml:lang="en">BioGRID protein interaction record - multivalidated_physical flag field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001832 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001832">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">NCBI Taxonomy taxon concept identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001833 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001833">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
+        <rdfs:label xml:lang="en">NCBI Taxonomy taxonomic rank concept identifier</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
