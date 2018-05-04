@@ -16899,6 +16899,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000081"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>NCBITaxon_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCBI Taxonomy taxon concept identifier</rdfs:label>
     </owl:Class>
     
@@ -16910,6 +16911,96 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000204"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">NCBI Taxonomy taxonomic rank concept identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001834 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001834">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - clinical annotation count field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001835 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001835">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - variant annotation count field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001836 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001836">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - pathway count field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001837 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001837">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - VIP count field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001838 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001838">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - dosing guideline sources field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001839 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001839">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - top clinical annotation level field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001840 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001840">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - top FDA label testing level field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001841 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001841">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - top any drug label testing level field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001842 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001842">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - label has dosing info field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001843 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001843">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000230"/>
+        <rdfs:label xml:lang="en">PharmGKB drug record - has Rx annotation field value</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
