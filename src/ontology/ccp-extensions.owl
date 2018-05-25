@@ -17101,6 +17101,17 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
         <rdfs:label xml:lang="en">Human Developmental Stages ontology concept identifier</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001854 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001854">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000182"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:label xml:lang="en">PomBase gene identifier</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
