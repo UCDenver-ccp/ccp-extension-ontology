@@ -9319,7 +9319,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001034">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000228"/>
-        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal start field value</rdfs:label>
+        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal start GRCh37.p13 field value</rdfs:label>
     </owl:Class>
     
 
@@ -9328,7 +9328,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001035">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000228"/>
-        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal end field value</rdfs:label>
+        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal stop GRCh37.p13 field value</rdfs:label>
     </owl:Class>
     
 
@@ -17111,6 +17111,24 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
         <rdfs:label xml:lang="en">PomBase gene identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001856 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001856">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000228"/>
+        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal start GRCh38.p7 field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001857 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001857">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000228"/>
+        <rdfs:label xml:lang="en">PharmGKB gene record - chromosomal stop GRCh38.p7 field value</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
