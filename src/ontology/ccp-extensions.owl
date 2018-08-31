@@ -17868,6 +17868,51 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001932"/>
         <rdfs:label xml:lang="en">Curated TF record - pfam domains field value</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001940 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001940">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - CHEBI identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001941 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001941">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - Reactome record – biochemical reaction participant field value, not input or output field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001942 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001942">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - PubChem identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001943 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001943">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - next step data field field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001944 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001944">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - participant stoichiometry data field field value</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
