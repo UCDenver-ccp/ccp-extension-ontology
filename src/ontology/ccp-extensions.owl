@@ -16193,6 +16193,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001754">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>IUPHAR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IUPHAR identifier</rdfs:label>
     </owl:Class>
     
@@ -16202,6 +16203,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001755">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>LSMDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Locus Specific Mutation Database identifier</rdfs:label>
     </owl:Class>
     
@@ -16211,6 +16213,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001756">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>BIOPARADIGMS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioParadigms SLC Table identifier</rdfs:label>
     </owl:Class>
     
@@ -16220,6 +16223,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001757">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>HCDM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Human Cell Differentiation Molecule Database identifier</rdfs:label>
     </owl:Class>
     
@@ -16229,6 +16233,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001758">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>KZNFCATALOG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Human KZNF Gene Catalog identifier</rdfs:label>
     </owl:Class>
     
@@ -16238,6 +16243,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001759">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>INTERFIL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Intermediate Filament Database identifier</rdfs:label>
     </owl:Class>
     
@@ -17116,6 +17122,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000182"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>POMBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PomBase gene identifier</rdfs:label>
     </owl:Class>
     
@@ -17143,6 +17150,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001858">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>ARAPORT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Araport identifier</rdfs:label>
     </owl:Class>
     
@@ -18021,6 +18029,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001955">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000182"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000280"/>
+        <obo:IAO_0000599>ENSEMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl gene identifier</rdfs:label>
     </owl:Class>
     
@@ -18031,6 +18040,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001956">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000187"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000280"/>
+        <obo:IAO_0000599>ENSEMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl transcript identifier</rdfs:label>
     </owl:Class>
     
@@ -18238,6 +18248,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001979">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>ENA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">European Nucleotide Archive identifier</rdfs:label>
     </owl:Class>
     
@@ -18347,6 +18358,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001991">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000188"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000280"/>
+        <obo:IAO_0000599>ENSEMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl protein identifier</rdfs:label>
     </owl:Class>
     
